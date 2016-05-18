@@ -35,7 +35,7 @@ app.get('/jogador/:id', function(request,response){
  	var usuarios = _.find(db.jogadores.players, function (el){
 		return el.steamid === request.params.id; 	
 	});
-	var jogos = db.jogosPorJogador[request.params.id];
+	var jogos = db.jogosPorJogador[req.params.id];
 	jogos.dinheiroperdido = _.where(jogos.games , {
 		playtime_forever: 0
 	}).length;

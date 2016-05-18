@@ -1,0 +1,30 @@
+{
+  "name": "geiser",
+  "version": "1.0.0",
+  "description": "Cadastrador de Jogos",
+  "main": "geiser.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathaPaulino/cefet-web-geiser.git"
+  },
+  "keywords": [
+    "Geiser"
+  ],
+  "author": "Natha Paulino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathaPaulino/cefet-web-geiser/issues"
+  },
+  "homepage": "https://github.com/NathaPaulino/cefet-web-geiser#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "hbs": "^4.0.0",
+    "underscore": "^1.8.3"
+  }
+}
